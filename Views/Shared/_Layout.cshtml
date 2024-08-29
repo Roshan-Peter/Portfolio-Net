@@ -1,0 +1,73 @@
+﻿@{
+    var isHomePage = ViewContext.RouteData.Values["controller"]?.ToString() == "Home" &&
+                     ViewContext.RouteData.Values["action"]?.ToString() == "Index";
+
+    var isAboutPage = ViewContext.RouteData.Values["controller"]?.ToString() == "Home" &&
+        ViewContext.RouteData.Values["action"]?.ToString() == "About" || 
+        ViewContext.RouteData.Values["controller"]?.ToString() == "Home" &&
+        ViewContext.RouteData.Values["action"]?.ToString() == "Projects";
+
+    var isContactPage = ViewContext.RouteData.Values["controller"]?.ToString() == "Home" &&
+             ViewContext.RouteData.Values["action"]?.ToString() == "Contact";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] RZH</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="icon" type="image/x-icon" href="/img/ym.png" />
+    <link rel="stylesheet" href="~/Portfolio.styles.css" asp-append-version="true" />
+    <link href="~/css/output.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lottie-web@5.12.2/build/player/lottie.min.js"></script>
+</head>
+<body id="main-body">
+    <header>
+        <nav class="gradient-bg p-3 md:p-4 shadow-lg fixed top-0 left-0 right-0 z-50 " id="mainNav">
+            <div class="container mx-auto flex items-center justify-between">
+
+                <a href="/" class="text-blue-700 text-2xl font-bold">RZH</a>
+
+                <div class="hidden md:flex space-x-6">
+                    <a href="/" class="px-3 py-2 rounded transition duration-300 @(isHomePage ? "text-blue-700 font-bold" : "links")">Home</a>
+                    <a href="/about" class="px-3 py-2 rounded transition duration-300 @(isAboutPage ? "text-blue-700 font-bold" : "links")">About</a>
+                    <a href="contact" class="px-3 py-2 rounded transition duration-300 @(isContactPage ? "text-blue-700 font-bold" : "links")">Contact</a>
+                </div>
+
+                <button id="menuButton" class="md:hidden bg-transparent text-white text-xl focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                </button>
+            </div>
+
+            <div id="mobileMenu" class="md:hidden fixed inset-0 bg-white bg-gradient-to-r from-blue-200 to-blue-300 text-black flex flex-col items-center justify-center space-y-4 hidden">
+                <a href="/" class="text-xl hover:bg-gray-200 px-4 py-2 rounded transition duration-300">Home</a>
+                <a href="/about" class="text-xl hover:bg-gray-200 px-4 py-2 rounded transition duration-300">About</a>
+                <a href="contact" class="text-xl hover:bg-gray-200 px-4 py-2 rounded transition duration-300">Contact</a>
+                <button id="closeMenu" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Close</button>
+            </div>
+        </nav>
+
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/document.js"></script>
+    <script src="~/js/sitescripts.js"></script>
+    <script src="~/js/styles.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

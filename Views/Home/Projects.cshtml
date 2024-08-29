@@ -1,0 +1,35 @@
+﻿@{
+    var projectList = TempData["projects"] as List<Projects>;
+}
+
+<div class="main-content">
+
+    <h1 class="text-center text-5xl">My Devs,</h1>
+
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-1 gap-8 p-3">
+
+        @if (projectList != null)
+        {
+            @foreach (var project in projectList)
+            {
+                <div class="bg-white p-6 rounded shadow">
+                    <h2 class="text-xl font-semibold mb-2">@project.Title</h2>
+                    <p class="mb-4">@project.Framework</p>
+                    <p class="mb-4">@project.Description</p>
+                    <a class="text-blue-500">Technologies used »</a>
+                    @if (project.Technology != null)
+                    {
+                        @foreach (var tech in project.Technology)
+                        {
+                            <p>@tech.Name</p>
+                        }
+                    }
+                </div>
+            }
+        }
+
+
+    </div>
+
+
+</div>
