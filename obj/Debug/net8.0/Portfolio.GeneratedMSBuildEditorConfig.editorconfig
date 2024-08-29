@@ -9,51 +9,51 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Portfolio
 build_property.RootNamespace = Portfolio
-build_property.ProjectDir = C:\Users\rosha\Desktop\pro\test\test\Portfolio\
+build_property.ProjectDir = C:\Users\rosha\Desktop\pro\test\test\pull\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\rosha\Desktop\pro\test\test\Portfolio
+build_property.MSBuildProjectDirectory = C:\Users\rosha\Desktop\pro\test\test\pull
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/rosha/Desktop/pro/test/test/Portfolio/Views/Home/About.cshtml]
+[C:/Users/rosha/Desktop/pro/test/test/pull/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rosha/Desktop/pro/test/test/Portfolio/Views/Home/Contact.cshtml]
+[C:/Users/rosha/Desktop/pro/test/test/pull/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rosha/Desktop/pro/test/test/Portfolio/Views/Home/Index.cshtml]
+[C:/Users/rosha/Desktop/pro/test/test/pull/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rosha/Desktop/pro/test/test/Portfolio/Views/Home/Privacy.cshtml]
+[C:/Users/rosha/Desktop/pro/test/test/pull/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rosha/Desktop/pro/test/test/Portfolio/Views/Home/Projects.cshtml]
+[C:/Users/rosha/Desktop/pro/test/test/pull/Views/Home/Projects.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9qZWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rosha/Desktop/pro/test/test/Portfolio/Views/Shared/Error.cshtml]
+[C:/Users/rosha/Desktop/pro/test/test/pull/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rosha/Desktop/pro/test/test/Portfolio/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/rosha/Desktop/pro/test/test/pull/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rosha/Desktop/pro/test/test/Portfolio/Views/_ViewImports.cshtml]
+[C:/Users/rosha/Desktop/pro/test/test/pull/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rosha/Desktop/pro/test/test/Portfolio/Views/_ViewStart.cshtml]
+[C:/Users/rosha/Desktop/pro/test/test/pull/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rosha/Desktop/pro/test/test/Portfolio/Views/Shared/_Layout.cshtml]
+[C:/Users/rosha/Desktop/pro/test/test/pull/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0aq0x0b44y

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mZI5dgXGNNU=",
+  "dgSpecHash": "GEqAnrh/TGk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\Portfolio\\Portfolio.csproj",
+  "projectFilePath": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\pull\\Portfolio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rosha\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\rosha\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

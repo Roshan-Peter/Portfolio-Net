@@ -1,25 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\Portfolio\\",
+  "WorkspaceRootPath": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\pull\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF926887-DA62-4E80-B9FE-69132CDC6021}|Portfolio.csproj|c:\\users\\rosha\\desktop\\pro\\test\\test\\portfolio\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{DF926887-DA62-4E80-B9FE-69132CDC6021}|Portfolio.csproj|c:\\users\\rosha\\desktop\\pro\\test\\test\\pull\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{DF926887-DA62-4E80-B9FE-69132CDC6021}|Portfolio.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF926887-DA62-4E80-B9FE-69132CDC6021}|Portfolio.csproj|c:\\users\\rosha\\desktop\\pro\\test\\test\\pull\\data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF926887-DA62-4E80-B9FE-69132CDC6021}|Portfolio.csproj|solutionrelative:data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF926887-DA62-4E80-B9FE-69132CDC6021}|Portfolio.csproj|c:\\users\\rosha\\desktop\\pro\\test\\test\\pull\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DF926887-DA62-4E80-B9FE-69132CDC6021}|Portfolio.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF926887-DA62-4E80-B9FE-69132CDC6021}|Portfolio.csproj|c:\\users\\rosha\\desktop\\pro\\test\\test\\portfolio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DF926887-DA62-4E80-B9FE-69132CDC6021}|Portfolio.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF926887-DA62-4E80-B9FE-69132CDC6021}|Portfolio.csproj|c:\\users\\rosha\\desktop\\pro\\test\\test\\portfolio\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF926887-DA62-4E80-B9FE-69132CDC6021}|Portfolio.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF926887-DA62-4E80-B9FE-69132CDC6021}|Portfolio.csproj|c:\\users\\rosha\\desktop\\pro\\test\\test\\portfolio\\wwwroot\\js\\sitescripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{DF926887-DA62-4E80-B9FE-69132CDC6021}|Portfolio.csproj|c:\\users\\rosha\\desktop\\pro\\test\\test\\pull\\wwwroot\\js\\sitescripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{DF926887-DA62-4E80-B9FE-69132CDC6021}|Portfolio.csproj|solutionrelative:wwwroot\\js\\sitescripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF926887-DA62-4E80-B9FE-69132CDC6021}|Portfolio.csproj|c:\\users\\rosha\\desktop\\pro\\test\\test\\portfolio\\views\\home\\projects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{DF926887-DA62-4E80-B9FE-69132CDC6021}|Portfolio.csproj|c:\\users\\rosha\\desktop\\pro\\test\\test\\pull\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DF926887-DA62-4E80-B9FE-69132CDC6021}|Portfolio.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF926887-DA62-4E80-B9FE-69132CDC6021}|Portfolio.csproj|c:\\users\\rosha\\desktop\\pro\\test\\test\\pull\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF926887-DA62-4E80-B9FE-69132CDC6021}|Portfolio.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF926887-DA62-4E80-B9FE-69132CDC6021}|Portfolio.csproj|c:\\users\\rosha\\desktop\\pro\\test\\test\\pull\\views\\home\\projects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DF926887-DA62-4E80-B9FE-69132CDC6021}|Portfolio.csproj|solutionrelative:views\\home\\projects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,24 +46,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\Portfolio\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\Portfolio\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-29T16:47:40.65Z",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\pull\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\pull\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-29T22:37:48.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "MongoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\pull\\Data\\MongoDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\MongoDbContext.cs",
+              "ToolTip": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\pull\\Data\\MongoDbContext.cs",
+              "RelativeToolTip": "Data\\MongoDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T22:37:00.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\pull\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\pull\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-29T16:47:40.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\Portfolio\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\pull\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\Portfolio\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\pull\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAC4AAAAAAAAAAAAiwDkAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -65,34 +98,35 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "sitescripts.js",
-              "DocumentMoniker": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\Portfolio\\wwwroot\\js\\sitescripts.js",
+              "DocumentMoniker": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\pull\\wwwroot\\js\\sitescripts.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\sitescripts.js",
-              "ToolTip": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\Portfolio\\wwwroot\\js\\sitescripts.js",
+              "ToolTip": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\pull\\wwwroot\\js\\sitescripts.js",
               "RelativeToolTip": "wwwroot\\js\\sitescripts.js",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBUAAAA6AAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwBEAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-08-29T07:06:50.594Z"
+              "WhenOpened": "2024-08-29T07:06:50.594Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\Portfolio\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\pull\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\Portfolio\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\pull\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAApAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADsAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-29T07:00:49.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Projects.cshtml",
-              "DocumentMoniker": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\Portfolio\\Views\\Home\\Projects.cshtml",
+              "DocumentMoniker": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\pull\\Views\\Home\\Projects.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Projects.cshtml",
-              "ToolTip": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\Portfolio\\Views\\Home\\Projects.cshtml",
+              "ToolTip": "C:\\Users\\rosha\\Desktop\\pro\\test\\test\\pull\\Views\\Home\\Projects.cshtml",
               "RelativeToolTip": "Views\\Home\\Projects.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",

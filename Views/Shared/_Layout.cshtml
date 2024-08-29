@@ -3,7 +3,7 @@
                      ViewContext.RouteData.Values["action"]?.ToString() == "Index";
 
     var isAboutPage = ViewContext.RouteData.Values["controller"]?.ToString() == "Home" &&
-        ViewContext.RouteData.Values["action"]?.ToString() == "About" || 
+        ViewContext.RouteData.Values["action"]?.ToString() == "About" ||
         ViewContext.RouteData.Values["controller"]?.ToString() == "Home" &&
         ViewContext.RouteData.Values["action"]?.ToString() == "Projects";
 
@@ -38,7 +38,7 @@
                     <a href="contact" class="px-3 py-2 rounded transition duration-300 @(isContactPage ? "text-blue-700 font-bold" : "links")">Contact</a>
                 </div>
 
-                <button id="menuButton" class="md:hidden bg-transparent text-white text-xl focus:outline-none">
+                <button id="menuButton" class="md:hidden bg-transparent text-xl focus:outline-none">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
                     </svg>
