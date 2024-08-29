@@ -5,7 +5,7 @@ EXPOSE 80
 EXPOSE 443
 
 # Use the official SDK image to build the application
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 COPY ["Portfolio.csproj", "./"]
 RUN dotnet restore "./Portfolio.csproj"
