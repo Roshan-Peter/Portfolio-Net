@@ -9,7 +9,7 @@ namespace Portfolio.Data
 
         public MongoDbContext(IConfiguration configuration)
         {
-            var client = new MongoClient(configuration.GetConnectionString("MongoDb"));
+            var client = new MongoClient(Environment.GetEnvironmentVariable("MONGO_CONNECTION_STRING"));
             _database = client.GetDatabase(configuration["DatabaseSettings:DatabaseName"]);
         }
 
