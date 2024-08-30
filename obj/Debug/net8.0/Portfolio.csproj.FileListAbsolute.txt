@@ -46,3 +46,39 @@ C:\Users\rosha\Desktop\pro\test\test\Portfolio\bin\Debug\net8.0\ZstdSharp.dll
 C:\Users\rosha\Desktop\pro\test\test\Portfolio\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
 C:\Users\rosha\Desktop\pro\test\test\Portfolio\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
 C:\Users\rosha\Desktop\pro\test\test\Portfolio\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\bin\Debug\net8.0\appsettings.json
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\bin\Debug\net8.0\package-lock.json
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\bin\Debug\net8.0\package.json
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\bin\Debug\net8.0\Portfolio.staticwebassets.runtime.json
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\bin\Debug\net8.0\Portfolio.exe
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\bin\Debug\net8.0\Portfolio.deps.json
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\bin\Debug\net8.0\Portfolio.runtimeconfig.json
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\bin\Debug\net8.0\Portfolio.dll
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\bin\Debug\net8.0\Portfolio.pdb
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\Portfolio.csproj.AssemblyReference.cache
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\Portfolio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\Portfolio.AssemblyInfoInputs.cache
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\Portfolio.AssemblyInfo.cs
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\Portfolio.csproj.CoreCompileInputs.cache
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\Portfolio.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\Portfolio.RazorAssemblyInfo.cache
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\Portfolio.RazorAssemblyInfo.cs
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\Portfolio.sourcelink.json
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\staticwebassets\msbuild.Portfolio.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\staticwebassets\msbuild.build.Portfolio.props
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Portfolio.props
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Portfolio.props
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\scopedcss\bundle\Portfolio.styles.css
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\scopedcss\projectbundle\Portfolio.bundle.scp.css
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\Portfolio.csproj.Up2Date
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\Portfolio.dll
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\refint\Portfolio.dll
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\Portfolio.pdb
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\Portfolio.genruntimeconfig.cache
+C:\Users\rosha\Desktop\pro\Portfolio\Main Pro\obj\Debug\net8.0\ref\Portfolio.dll

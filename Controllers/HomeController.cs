@@ -1,54 +1,30 @@
 using Microsoft.AspNetCore.Mvc;
-using MongoDB.Driver;
 using Newtonsoft.Json;
-using Portfolio.Data;
 using Portfolio.Models;
-using Portfolio.Services;
 using System.Diagnostics;
 
 namespace Portfolio.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-        private readonly EducationService _educationService;
-        private readonly AboutService _aboutService;
-        private readonly ProjectsService _projectsService;
-        private readonly MessageService _messageService;
-        public HomeController(
-            ILogger<HomeController> logger, 
-            EducationService educationService,
-            AboutService aboutService,
-            ProjectsService projectsService
-,
-            MessageService messageService
-            )
+        public HomeController()
         {
-            _logger = logger;
-            _educationService = educationService;
-            _aboutService = aboutService;
-            _projectsService = projectsService;
-            _messageService = messageService;
         }
 
         public IActionResult Index()
         {
-            return View();
-        }
+            var educationList = new List<Education>
+            {
+                new Education { Title = "Mahatama Gandhi University Kerala India (2018 - 2021)", Description = "Graduated from Mahatama Gandhi University in Bachelors in Computer Application (BCA)." },
+                new Education { Title = "Conestoga College Ontario Canada (2023 - 2024)", Description = "Graduated from Conestoga College in software development." },
+            };
+            var about = "I am a dedicated software developer with a good knowledge of creating Web and Android apps. My academic background has equipped me with a solid understanding of many programming languages. Throughout my studies and the software I have made, I have developed a keen eye for detail and a passion for writing clean and efficient code. I am eager to apply my skills and enthusiasm and contribute to innovative projects.";
+            var projects = GetTopProjects();
 
-        [HttpGet]
-        [Route("/about")]
-        public IActionResult About()
-        {
-            var educationList = _educationService.GetEducation();
-            var about = _aboutService.GetAbouts();
-            var projects = _projectsService.GetProjects();
+            TempData["About"] = about;
 
             TempData["EducationList"] = educationList;
-            TempData["About"] = about.First().AboutText;
-            TempData["projects"] = _projectsService.GetProjects()
-                                                   .Where(p => p.Priority == 1)
-                                                   .ToList(); 
+            TempData["projects"] = projects;
 
             return View();
         }
@@ -57,44 +33,112 @@ namespace Portfolio.Controllers
         [Route("/projects")]
         public IActionResult Projects()
         {
-            TempData["projects"] = _projectsService.GetProjects();
+            TempData["projects"] = GetProjects();
             return View();
         }
 
-        [HttpGet]
-        [Route("/contact")]
-        public IActionResult Contact()
+
+
+        private List<Projects> GetTopProjects()
         {
-            return View();
+        return new List<Projects>
+                {
+                    new Projects
+                    {
+                        Title = "E-commerce App",
+                        Description = "Developed an e-commerce website using Django, Python's web framework. Implemented features such as user authentication and shopping cart functionality. Utilized Django's ORM for seamless database interaction and used PostgreSQL as the database.",
+                        Framework = "Django Web App",
+                        Technology = new List<Technology>
+                        {
+                            new Technology{ Name = "Python (Django Framework)" },
+                            new Technology { Name = "PostgreSQL" }
+                        },
+                        Priority = 1
+                    },
+                    new Projects
+                    {
+                        Title = "Complaint Registration App",
+                        Description = "I have developed comprehensive complaint registration software for web and Android platforms using Java. This software allows users to seamlessly register complaints, track their status, and receive real-time updates. Utilizing Java's robust capabilities and integrating with web and Android environments, the software ensures efficient handling of customer grievances while maintaining a user-friendly interface.",
+                        Framework = "Java Web App",
+                        Technology = new List<Technology>
+                        {
+                            new Technology{ Name = "Java, Jsp" },
+                            new Technology { Name = "MySQL" }
+                        },
+                        Priority = 1
+                    },
+            };
         }
 
-        [HttpPost]
-        [Route("/contact")]
-        public IActionResult Contact(Message model)
+
+        private List<Projects> GetProjects()
         {
-            if(string.IsNullOrEmpty(model.Email))
+            return new List<Projects>
             {
-                model.Email = "";
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
+                new Projects
                 {
-                    TempData["code"] = "1";
-
-                    _messageService.CreateMessage(model);
-                    return RedirectToAction("Contact");
-                }
-                catch (Exception)
+                    Title = "E-commerce App",
+                    Description = "Developed an e-commerce website using Django, Python's web framework. Implemented features such as user authentication and shopping cart functionality. Utilized Django's ORM for seamless database interaction and used PostgreSQL as the database.",
+                    Framework = "Django Web App",
+                    Technology = new List<Technology>
+                    {
+                        new Technology{ Name = "Python (Django Framework)" },
+                        new Technology { Name = "PostgreSQL" }
+                    },
+                    Priority = 1
+                },
+                new Projects
                 {
-                    return View(model);
+                    Title = "Complaint Registration App",
+                    Description = "I have developed comprehensive complaint registration software for web and Android platforms using Java. This software allows users to seamlessly register complaints, track their status, and receive real-time updates. Utilizing Java's robust capabilities and integrating with web and Android environments, the software ensures efficient handling of customer grievances while maintaining a user-friendly interface.",
+                    Framework = "Java Web App",
+                    Technology = new List<Technology>
+                    {
+                        new Technology{ Name = "Java, Jsp" },
+                        new Technology { Name = "MySQL" }
+                    },
+                    Priority = 1
+                },
+
+                new Projects
+                {
+                    Title = "E-commerce App",
+                    Description = "I have designed and implemented a dynamic e-commerce platform for selling laptops on Android devices. Built using Java and Firebase databases, the app offers a secure and responsive shopping experience. It includes features such as product listings, user authentication and so on.",
+                    Framework = "Android App",
+                    Technology = new List<Technology>
+                    {
+                        new Technology{ Name = "App development using Java" },
+                        new Technology { Name = "Firebase" }
+                    },
+                    Priority = 0
+                },
+
+                new Projects
+                {
+                    Title = "Book Management Application",
+                    Description = "I have designed and developed a book management application using .NET (c#), used SQLServer as the database.",
+                    Framework = ".Net Application",
+                    Technology = new List<Technology>
+                    {
+                        new Technology{ Name = "C#" },
+                        new Technology { Name = "SQLServer" }
+                    },
+                    Priority = 0
+                },
+
+                new Projects
+                {
+                    Title = "Driving test booking platform",
+                    Description = "I have developed a driving test booking application using Express framework and ejs as the templating engine, I have also used MongoDB for storing data.",
+                    Framework = "Node Js, Express Application",
+                    Technology = new List<Technology>
+                    {
+                        new Technology{ Name = "JavaScript" },
+                        new Technology { Name = "MongoDB" }
+                    },
+                    Priority = 0
                 }
-            }
-
-            TempData["code"] = "0";
-
-            return View(model);
+            };
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

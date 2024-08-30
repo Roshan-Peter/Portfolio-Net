@@ -31,11 +31,11 @@
             <div class="container mx-auto flex items-center justify-between">
 
                 <a href="/" class="text-blue-700 text-2xl font-bold">RZH</a>
-
+                @* @(isHomePage ? "text-blue-700 font-bold" : "links")" *@
                 <div class="hidden md:flex space-x-6">
-                    <a href="/" class="px-3 py-2 rounded transition duration-300 @(isHomePage ? "text-blue-700 font-bold" : "links")">Home</a>
-                    <a href="/about" class="px-3 py-2 rounded transition duration-300 @(isAboutPage ? "text-blue-700 font-bold" : "links")">About</a>
-                    <a href="contact" class="px-3 py-2 rounded transition duration-300 @(isContactPage ? "text-blue-700 font-bold" : "links")">Contact</a>
+                    <a href="/" class="px-3 py-2 rounded transition duration-300 links">Home</a>
+                    <a href="/#about" class="px-3 py-2 rounded transition duration-300 links">About</a>
+                    <a href="#contact" class="px-3 py-2 rounded transition duration-300 links">Contact</a>
                 </div>
 
                 <button id="menuButton" class="md:hidden bg-transparent text-xl focus:outline-none">
@@ -47,8 +47,8 @@
 
             <div id="mobileMenu" class="md:hidden fixed inset-0 bg-white bg-gradient-to-r from-blue-200 to-blue-300 text-black flex flex-col items-center justify-center space-y-4 hidden">
                 <a href="/" class="text-xl hover:bg-gray-200 px-4 py-2 rounded transition duration-300">Home</a>
-                <a href="/about" class="text-xl hover:bg-gray-200 px-4 py-2 rounded transition duration-300">About</a>
-                <a href="contact" class="text-xl hover:bg-gray-200 px-4 py-2 rounded transition duration-300">Contact</a>
+                <a href="/#about" class="text-xl hover:bg-gray-200 px-4 py-2 rounded transition duration-300">About</a>
+                <a href="#contact" class="text-xl hover:bg-gray-200 px-4 py-2 rounded transition duration-300">Contact</a>
                 <button id="closeMenu" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Close</button>
             </div>
         </nav>
@@ -65,7 +65,6 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    <script src="~/js/document.js"></script>
     <script src="~/js/sitescripts.js"></script>
     <script src="~/js/styles.js"></script>
     @await RenderSectionAsync("Scripts", required: false)

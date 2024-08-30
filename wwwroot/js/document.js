@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Check if the current URL path is "/"
-    if (window.location.pathname === '/') {
+/*    if (window.location.pathname === '/') {
         // Create a <style> element
         const style = document.createElement('style');
 
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         window.addEventListener("resize", function() {
             location.reload();
         });
-    }
+    }*/
 
 
 
