@@ -48,6 +48,10 @@ closeMenuButton.addEventListener('click', () => {
     mobileMenu.classList.add('hidden');
 });
 
+const closeMenu = () => {
+    mobileMenu.classList.add('hidden');
+}
+
 document.addEventListener('click', (event) => {
     if (!mobileMenu.contains(event.target) && !menuButton.contains(event.target)) {
         mobileMenu.classList.add('hidden');

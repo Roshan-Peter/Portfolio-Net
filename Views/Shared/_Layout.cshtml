@@ -47,9 +47,9 @@
 
             <div id="mobileMenu" class="md:hidden fixed inset-0 bg-white bg-gradient-to-r from-blue-200 to-blue-300 text-black flex flex-col items-center justify-center space-y-4 hidden">
                 <a href="/" class="text-xl hover:bg-gray-200 px-4 py-2 rounded transition duration-300">Home</a>
-                <a href="/#about" class="text-xl hover:bg-gray-200 px-4 py-2 rounded transition duration-300">About</a>
-                <a href="#contact" class="text-xl hover:bg-gray-200 px-4 py-2 rounded transition duration-300">Contact</a>
-                <button id="closeMenu" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Close</button>
+                <a href="/#about" onclick="closeMenu()" class="text-xl hover:bg-gray-200 px-4 py-2 rounded transition duration-300">About</a>
+                <a href="#contact" onclick="closeMenu()" class="text-xl hover:bg-gray-200 px-4 py-2 rounded transition duration-300">Contact</a>
+                <button id="closeMenu" onclick="closeMenu()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Close</button>
             </div>
         </nav>
 

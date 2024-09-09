@@ -103,6 +103,19 @@ namespace Portfolio.Controllers
                 new Projects
                 {
                     Title = "E-commerce App",
+                    Description = "I have designed and implemented a dynamic e-commerce platform for selling electronic devices. Built using .Net Mvc Core and SQLServer databases, the app offers a secure and responsive shopping experience. It includes features such as product listings, user authentication and so on.",
+                    Framework = ".NET Web App",
+                    Technology = new List<Technology>
+                    {
+                        new Technology{ Name = "C#" },
+                        new Technology { Name = "SQLServer" }
+                    },
+                    Priority = 0
+                },
+
+                new Projects
+                {
+                    Title = "E-commerce App",
                     Description = "I have designed and implemented a dynamic e-commerce platform for selling laptops on Android devices. Built using Java and Firebase databases, the app offers a secure and responsive shopping experience. It includes features such as product listings, user authentication and so on.",
                     Framework = "Android App",
                     Technology = new List<Technology>
