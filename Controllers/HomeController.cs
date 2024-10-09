@@ -7,9 +7,6 @@ namespace Portfolio.Controllers
 {
     public class HomeController : Controller
     {
-        public HomeController()
-        {
-        }
 
         public IActionResult Index()
         {
@@ -75,6 +72,18 @@ namespace Portfolio.Controllers
         {
             return new List<Projects>
             {
+                new Projects
+                {
+                    Title = "Bakery Management App",
+                    Description = "A web application designed to streamline the operations of a bakery. It allows staff to manage inventory, track orders, and generate reports. The app provides a user-friendly interface for both customers and staff, offering features such as order placement, real-time inventory updates, and customizable product options.",
+                    Framework = "Node.js, Express, React",
+                    Technology = new List<Technology>
+                    {
+                        new Technology { Name = "JavaScript" },
+                        new Technology { Name = "MongoDB" }
+                    },
+                },
+
                 new Projects
                 {
                     Title = "E-commerce App",
@@ -150,7 +159,7 @@ namespace Portfolio.Controllers
                         new Technology { Name = "MongoDB" }
                     },
                     Priority = 0
-                }
+                },
             };
         }
 
